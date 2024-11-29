@@ -132,11 +132,11 @@ case class Controller(
   private def listRooms(): Future[ToResponseMarshallable] = 
   rooms
     .ask[Map[String, ActorRef[Message]]](ref => ListRooms(ref))  
-    .map { roomsMap =>
-      if (roomsMap.isEmpty) {
+    .map { roooms =>
+      if (roooms.isEmpty) {
         StatusCodes.NotFound 
       } else {
-        StatusCodes.OK -> roomsMap.keys  
+        StatusCodes.OK -> roooms.keys  
       }
     }
 
