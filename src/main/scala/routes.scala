@@ -146,7 +146,7 @@ case class Controller(
     rooms
       .ask[Option[ActorRef[Message]]](ref => GetRoom(roomId, ref))
       .map {
-        case Some(roomActorRef) => StatusCodes.OK -> roomActorRef.toString 
+        case Some(roomActorRef) => StatusCodes.OK -> s"Room '$roomId' "
         case None => StatusCodes.NotFound 
   }
 
