@@ -1,0 +1,212 @@
+2024.11.28 15:23:25 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.28 15:23:25 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/routes.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.28 15:23:27 INFO  Running List(/home/cytech/.local/share/coursier/bin/scala-cli, setup-ide, /home/cytech/tp-actors-cytech-main/src)
+2024.11.28 15:23:27 INFO  Attempting to connect to the build server...
+2024.11.28 15:23:27 INFO  Running BSP server List(/home/cytech/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/cytech/tp-actors-cytech-main/src/.scala-build/ide-options-v2.json, --json-launcher-options, /home/cytech/tp-actors-cytech-main/src/.scala-build/ide-launcher-options.json, --envs-file, /home/cytech/tp-actors-cytech-main/src/.scala-build/ide-envs.json, /home/cytech/tp-actors-cytech-main/src)
+2024.11.28 15:23:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cytech/tp-actors-cytech-main/src/.metals/bsp.trace.json or /home/cytech/.cache/metals/bsp.trace.json
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.2/bloop-frontend_2.12-2.0.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.2/bloop-frontend_2.12-2.0.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.2/bloop-backend_2.12-2.0.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.2/bloop-shared_2.12-2.0.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.2/bloop-backend_2.12-2.0.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.2/bloop-shared_2.12-2.0.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.2/zinc_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.21/interface-1.0.21.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.3.2/jsoniter-scala-core_2.12-2.13.3.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.1/librarymanagement-ivy_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.2/test-agent-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.21/interface-1.0.21.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.3.2/jsoniter-scala-core_2.12-2.13.3.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.2/zinc_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/routes.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.28 15:23:27 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/routes.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.2/test-agent-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.1/librarymanagement-ivy_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.2/zinc-compile-core_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.2/zinc-core_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.1/librarymanagement-core_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.2/zinc-classfile_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/me/vican/jorge/jsonrpc4s_2.12/0.1.0/jsonrpc4s_2.12-0.1.0.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.2/zinc-classfile_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.2/zinc-persist_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.2/zinc-compile-core_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.1/librarymanagement-core_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.2/zinc-core_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.2/zinc-persist_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/me/vican/jorge/jsonrpc4s_2.12/0.1.0/jsonrpc4s_2.12-0.1.0.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.1/util-logging_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.1/util-control_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.2/zinc-apiinfo_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.0/util-position_2.12-1.10.0.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.0/util-cache_2.12-1.10.0.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.0/io_2.12-1.10.0.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.0/util-position_2.12-1.10.0.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.2/zinc-classpath_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.0/util-cache_2.12-1.10.0.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.1/util-logging_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.3/launcher-interface-1.4.3.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.2/zinc-persist-core-assembly-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.2/zinc-apiinfo_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.1/util-control_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.1/util-relation_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.2/compiler-interface-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.3/launcher-interface-1.4.3.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.0/io_2.12-1.10.0.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.1/util-relation_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.2/zinc-classpath_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.2/compiler-interface-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.2/zinc-persist-core-assembly-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.1/collections_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.2/compiler-bridge_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.1/util-interface-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.1/core-macros_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.1/core-macros_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.1/util-interface-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.2/compiler-bridge_2.12-1.10.2.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.1/collections_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.1/util-position_2.12-1.10.1.pom
+2024.11.28 15:23:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.1/util-position_2.12-1.10.1.pom
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.2/zinc-apiinfo_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.2/zinc-compile-core_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.1/util-control_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.2/zinc-core_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.2/zinc-persist_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.1/core-macros_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.1/util-control_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.0/io_2.12-1.10.0.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.10.2/zinc-apiinfo_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.1/librarymanagement-core_2.12-1.10.1.jar
+2024.11.28 15:23:27 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/routes.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.10.2/zinc-compile-core_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.0/util-cache_2.12-1.10.0.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.1/core-macros_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.2/test-agent-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.10.2/zinc-core_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.1/librarymanagement-ivy_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.2/zinc-persist_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.1/util-position_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.1/util-position_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.2/zinc-persist-core-assembly-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.10.2/test-agent-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.2/zinc-classpath_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.10.1/librarymanagement-ivy_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.2/compiler-bridge_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.10.2/zinc-classpath_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.1/util-logging_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.2/compiler-bridge_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.2/bloop-shared_2.12-2.0.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.10.1/librarymanagement-core_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/me/vican/jorge/jsonrpc4s_2.12/0.1.0/jsonrpc4s_2.12-0.1.0.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.2/bloop-shared_2.12-2.0.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.2/zinc_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.2/zinc-persist-core-assembly-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.21/interface-1.0.21.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.10.2/zinc_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.2/bloop-frontend_2.12-2.0.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/me/vican/jorge/jsonrpc4s_2.12/0.1.0/jsonrpc4s_2.12-0.1.0.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.1/util-interface-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.1/util-interface-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.10.0/util-cache_2.12-1.10.0.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.3/launcher-interface-1.4.3.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.0/io_2.12-1.10.0.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.2/bloop-backend_2.12-2.0.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.2/bloop-frontend_2.12-2.0.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.3.2/jsoniter-scala-core_2.12-2.13.3.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.2/compiler-interface-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.3/launcher-interface-1.4.3.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.1/collections_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.1/util-logging_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.2/zinc-classfile_2.12-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.3.2/jsoniter-scala-core_2.12-2.13.3.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.1/util-relation_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.1/collections_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.2/compiler-interface-1.10.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.1/util-relation_2.12-1.10.1.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.2/bloop-backend_2.12-2.0.2.jar
+2024.11.28 15:23:28 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.2/zinc-classfile_2.12-1.10.2.jar
+2024.11.28 15:23:30 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.21/interface-1.0.21.jar
+2024.11.28 15:23:30 INFO  BSP server: Starting compilation server
+2024.11.28 15:23:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.1/scala3-library_3-3.5.1-sources.jar
+2024.11.28 15:23:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.1/scala3-library_3-3.5.1-sources.jar
+2024.11.28 15:23:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom
+2024.11.28 15:23:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom
+2024.11.28 15:23:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+2024.11.28 15:23:33 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/routes.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.28 15:23:35 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+2024.11.28 15:23:35 INFO  time: Connected to build server in 8.45s
+2024.11.28 15:23:35 INFO  Connected to Build server: scala-cli v1.5.1
+2024.11.28 15:23:35 INFO  time: Imported build in 0.18s
+2024.11.28 15:23:35 INFO  running doctor check
+2024.11.28 15:23:35 INFO  java targets: src_68f9a4410d, src_68f9a4410d-test
+2024.11.28 15:23:36 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:23:38 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.28 15:23:41 INFO  time: indexed workspace in 5.88s
+2024.11.28 15:23:44 INFO  time: compiled src_68f9a4410d in 8.48s
+2024.11.28 15:23:44 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:23:48 INFO  time: compiled src_68f9a4410d in 3.13s
+2024.11.28 15:24:12 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:24:14 INFO  time: compiled src_68f9a4410d in 1.4s
+2024.11.28 15:24:14 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:24:15 INFO  time: compiled src_68f9a4410d in 1.33s
+2024.11.28 15:26:34 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:26:34 INFO  time: compiled src_68f9a4410d in 0.88s
+2024.11.28 15:26:46 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:26:46 INFO  time: compiled src_68f9a4410d in 0.83s
+Nov 28, 2024 3:26:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+2024.11.28 15:27:00 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:27:00 INFO  time: compiled src_68f9a4410d in 0.73s
+2024.11.28 15:27:05 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:27:05 INFO  time: compiled src_68f9a4410d in 0.7s
+2024.11.28 15:27:19 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:27:19 INFO  time: compiled src_68f9a4410d in 0.6s
+2024.11.28 15:27:44 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:27:44 INFO  time: compiled src_68f9a4410d in 0.61s
+2024.11.28 15:27:59 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:27:59 INFO  time: compiled src_68f9a4410d in 0.53s
+2024.11.28 15:28:11 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.28 15:28:11 INFO  time: compiled src_68f9a4410d in 0.56s
+2024.11.28 15:42:02 INFO  Shut down connection with build server.
+2024.11.29 19:38:27 INFO  Started: Metals version 1.4.1 in folders '/home/cytech/tp-actors-cytech-main/src' for client Visual Studio Code 1.95.3.
+2024.11.29 19:38:28 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.29 19:38:28 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.29 19:38:28 INFO  Attempting to connect to the build server...
+2024.11.29 19:38:28 INFO  Running BSP server List(/home/cytech/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/cytech/tp-actors-cytech-main/src/.scala-build/ide-options-v2.json, --json-launcher-options, /home/cytech/tp-actors-cytech-main/src/.scala-build/ide-launcher-options.json, --envs-file, /home/cytech/tp-actors-cytech-main/src/.scala-build/ide-envs.json, /home/cytech/tp-actors-cytech-main/src)
+2024.11.29 19:38:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cytech/tp-actors-cytech-main/src/.metals/bsp.trace.json or /home/cytech/.cache/metals/bsp.trace.json
+2024.11.29 19:38:29 INFO  BSP server: Starting compilation server
+2024.11.29 19:38:32 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.29 19:38:50 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.29 19:38:52 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.29 19:38:52 INFO  no build target found for /home/cytech/tp-actors-cytech-main/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.29 19:39:01 INFO  BSP server: Error: java.util.concurrent.TimeoutException: Future timed out after [30 seconds]
+2024.11.29 19:39:01 INFO  BSP server: For more details, please see '/home/cytech/tp-actors-cytech-main/src/.scala-build/stacktraces/1732905541-830037917586427375.log'
+2024.11.29 19:39:28 ERROR Timeout waiting for 'build/initialize' response
+2024.11.29 19:39:28 WARN  Retrying connection to the build server scala-cli
+2024.11.29 19:39:28 INFO  Running BSP server List(/home/cytech/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/cytech/tp-actors-cytech-main/src/.scala-build/ide-options-v2.json, --json-launcher-options, /home/cytech/tp-actors-cytech-main/src/.scala-build/ide-launcher-options.json, --envs-file, /home/cytech/tp-actors-cytech-main/src/.scala-build/ide-envs.json, /home/cytech/tp-actors-cytech-main/src)
+2024.11.29 19:39:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cytech/tp-actors-cytech-main/src/.metals/bsp.trace.json or /home/cytech/.cache/metals/bsp.trace.json
+2024.11.29 19:39:29 INFO  time: Connected to build server in 1m1s
+2024.11.29 19:39:29 INFO  Connected to Build server: scala-cli v1.5.1
+2024.11.29 19:39:30 INFO  running doctor check
+2024.11.29 19:39:30 INFO  java targets: src_68f9a4410d, src_68f9a4410d-test
+2024.11.29 19:39:30 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.29 19:39:32 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.29 19:39:33 INFO  time: indexed workspace in 3.8s
+2024.11.29 19:39:39 INFO  time: compiled src_68f9a4410d in 8.7s
+2024.11.29 19:39:39 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.29 19:39:41 INFO  time: compiled src_68f9a4410d in 2.42s
+2024.11.29 19:39:41 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.29 19:39:43 INFO  time: compiled src_68f9a4410d in 1.37s
+2024.11.29 19:39:48 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.29 19:39:48 INFO  time: compiled src_68f9a4410d in 0.99s
+2024.11.29 19:44:12 INFO  compiling src_68f9a4410d (4 scala sources)
+2024.11.29 19:44:12 INFO  time: compiled src_68f9a4410d in 0.9s
+2024.11.29 19:44:54 INFO  Shutting down server
+2024.11.29 19:44:54 INFO  shutting down Metals
+2024.11.29 19:44:54 INFO  Shut down connection with build server.
+2024.11.29 19:44:54 INFO  Exiting server

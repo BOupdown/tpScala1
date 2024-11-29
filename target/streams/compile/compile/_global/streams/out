@@ -1,0 +1,20 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E172] Type Error: /home/cytech/tp-actors-cytech-main/src/main/scala/routes.scala:183:64 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m183 |[0m        [33mval[0m [36mpostOutputs[0m = posts.map([36mpost[0m => post.output(roomId)).toSet[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                                ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mNo implicit Ordering[fr.cytech.icc.PostOutput] found to build a SortedSet[fr.cytech.icc.PostOutput]. You may want to upcast to a Set[fr.cytech.icc.Post @uncheckedVariance] first by calling `unsorted`..[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mI found:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    scala.math.Ordering.ordered[[35mfr.cytech.icc.PostOutput[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m      /* missing */[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m        summon[scala.math.Ordering.AsComparable[fr.cytech.icc.PostOutput]][0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mBut no implicit values were found that match type scala.math.Ordering.AsComparable[fr.cytech.icc.PostOutput].[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mOne of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  import org.apache.pekko.http.impl.util.JavaMapping.Implicits.convertToScala[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  import org.apache.pekko.http.javadsl.server.RoutingJavaMapping.Implicits.convertToScala[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m  import scala.math.Ordered.orderingToOrdered[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
